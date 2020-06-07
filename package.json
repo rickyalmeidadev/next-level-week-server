@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "clear & ts-node-dev--ignore-watch node_modules src/server.ts",
     "knex:seed": "clear & knex --knexfile knexfile.ts seed:run",
-    "knex:migrate": "clear & knex--knexfile knexfile.ts migrate:latest"
+    "knex:migrate": "clear & knex --knexfile knexfile.ts migrate:latest"
   },
   "keywords": [],
   "author": "",
